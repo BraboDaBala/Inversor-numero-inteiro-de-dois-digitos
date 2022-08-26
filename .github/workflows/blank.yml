@@ -1,0 +1,15 @@
+Algoritmo "Inversor pro"
+// Descrição   : Inverte um numero de dois digitos
+// Autor(a)    : Guilherme Assis Cavalcante
+// Data atual  : 26/08/2022
+Var
+// Seção de Declarações das variáveis 
+nnn: inteiro
+
+Inicio
+escreval ("numero de dois digitos pra ser invertido")
+leia (nnn)
+nnn <- ((nnn-((int((nnn)/10)))*10))*10+(int((nnn)/10)) //matematica braba
+escreval ("resultado: ",nnn)
+
+Fimalgoritmo
